@@ -4,6 +4,11 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
 .container{
   background-color: #1A1B21;
   margin-left: auto;
@@ -13,6 +18,7 @@ body{
   width: 420px;
   padding: 0%;
   top: 50%;
+  margin-bottom: 20%;
   -ms-transform: translateY(14%);
   transform: translateY(14%);
   overflow: hidden;
@@ -111,7 +117,7 @@ font-size: small;
   position: absolute;
 }
 
-.footer > svg{
+.footer > a{
   margin-inline: 15px;
 }
 
